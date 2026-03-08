@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { AutoTradeConfig, signalTradingService } from '@/services/signal-trading.service';
-import './AutoTradeSettings.scss';
+import './StateFXSettings.scss';
 
-export const AutoTradeSettings: React.FC<{ onClose: () => void }> = ({ onClose }) => {
+export const StateFXSettings: React.FC<{ onClose: () => void }> = ({ onClose }) => {
     const [config, setConfig] = useState<AutoTradeConfig>(signalTradingService.getAutoTradeConfig());
 
     const handleSave = () => {

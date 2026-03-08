@@ -123,7 +123,7 @@
 -   Deriv API integration
 -   Error handling & retry
 -   Trade logging
--   **Files**: `auto-trader.service.ts`, `AutoTradeSettings.tsx`
+-   **Files**: `auto-trader.service.ts`, `StateFXSettings.tsx`
 
 ### ✓ Follow Signal Button
 
@@ -274,7 +274,7 @@ src/
 │   ├── CountdownTimer.tsx
 │   ├── AlertNotification.tsx
 │   ├── PredictionPanel.tsx
-│   ├── AutoTradeSettings.tsx
+│   ├── StateFXSettings.tsx
 │   ├── FollowSignalButton.tsx
 │   ├── LossProtectionPanel.tsx
 │   ├── PositionSizeCalculator.tsx
