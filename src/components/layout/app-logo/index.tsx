@@ -11,9 +11,9 @@ export const AppLogo = () => {
             href='https://www.mozaictradinghub.com/'
             target='_blank'
             rel='noopener noreferrer'
-            className='app-header__logo plenty-fx-logo'
+            className='app-header__logo state-fx-logo'
         >
-            <span className='plenty-fx-text'>State FX</span>
+            <span className='state-fx-text'>State FX</span>
         </a>
     );
 };

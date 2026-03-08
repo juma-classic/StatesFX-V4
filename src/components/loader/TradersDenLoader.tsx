@@ -59,7 +59,7 @@ export const TradersDenLoader: React.FC<TradersDenLoaderProps> = ({ onLoadComple
     }, [duration, onLoadComplete, statuses.length]);
 
     return (
-        <div className={`plenty-fx-loader ${isComplete ? 'fade-out' : ''}`}>
+        <div className={`state-fx-loader ${isComplete ? 'fade-out' : ''}`}>
             {/* Particle Background */}
             <div className='particle-background'>
                 {[...Array(30)].map((_, i) => (
