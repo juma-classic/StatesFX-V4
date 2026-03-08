@@ -552,26 +552,15 @@ const AppWrapper = observer(() => {
     useEffect(() => {
         const fetchBots = async () => {
             const botFiles = [
-                'Tick Sniper.xml',
-                'PATEL (with Entry).xml',
-                'dollar_flipper.xml',
-                'UnderoverAutoswitch.xml',
-                '_Over 1 under 8 Recovery Even & Odd 2026 💵💯 (5).xml',
+                'Deriv wizard.xml',
+                'States Digit Switcher.xml',
                 '$Dollar printer .xml',
                 'AUTO C4 VOLT 🇬🇧 2 🇬🇧 AI PREMIUM ROBOT  (2) (1).xml',
-                'Auto Zeus Bot.xml',
-                'Flipping-Tool-2026 - Elvis Trades (1).xml',
-                'ZEUS AI PRO v1.xml',
-                'Zeus Digit Switcher.xml',
-                'Zeus Over.xml',
-                'Over 3 Delirium by Elvis Trades.xml',
-                'Over-Killer by Zeus.xml',
-                'Over-Pro by Zeus.xml',
-                'Random LDP Differ - Elvis Trades.xml',
+                'PATEL (with Entry).xml',
                 'Raziel Over Under.xml',
                 'Speed Auto Bot🦷.xml',
-                'Under 8 promax by Zeus.xml',
-                'Under Killer 2026.xml',
+                'Tick Sniper.xml',
+                'UnderoverAutoswitch.xml',
             ];
             const botPromises = botFiles.map(async file => {
                 try {
